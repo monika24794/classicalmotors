@@ -1,0 +1,38 @@
+/* 
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+*/
+.service-history {
+    margin-top: 20px;
+}
+
+.service-record {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.service-record.read {
+    background-color: #f9f9f9;
+}
+
+.service-record.unread {
+    background-color: #eaf1f7;
+    border-left: 5px solid #007bff;
+}
+
+.service-record-users {
+    margin-top: 10px;
+}
+
+.service-record-users ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-record-users li {
+    margin: 2px 0;
+}

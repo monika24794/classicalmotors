@@ -1,0 +1,484 @@
+.footer-item p {
+    text-align: left; /* Options: left, right, center, justify */
+}
+
+.footer {
+    background: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+#callaction{
+    background-color: #db0738;
+
+}
+
+
+ #callaction.section {
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #e90a19 !important;
+} 
+.covered {
+    position: relative;
+    /* make a new "render context", so absolute positioning is relative to this parent container */
+
+    padding: 300px 50px 30px 100px;
+    /* only needed for this demo */
+}
+
+.covered-img {
+    opacity: .25;
+
+    background-size: cover;
+    /* cover will scale the image so that the smallest dimension = the widest dimension of the box */
+    background-position: center;
+    /* vs the top-left that is default */
+
+    position: absolute;
+    /* take me out of the render context! let me define my own positioning */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* this could also work with width:100%; height:100%;, but is simpler */
+}
+
+.title-sub {
+    font-size: 18px;
+}
+
+/*END FOOTER SOCIAL DESIGN*/
+/*.single_footer{}*/
+
+
+@media only screen and (max-width:768px) {
+    .single_footer {
+        margin-bottom: 30px;
+    }
+}
+
+.single_footer h4 {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.single_footer h4::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 40px;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.single_footer p {
+    color: #fff;
+}
+
+.single_footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*.single_footer ul li{}*/
+.single_footer ul li a {
+    color: #fff;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    line-height: 30px;
+    font-size: 15px;
+    /*text-transform: capitalize;*/
+}
+
+.single_footer ul li a:hover {
+    color: #ff3666;
+}
+
+.single_footer_address ul li {
+    color: #fff;
+}
+
+.single_footer_address ul li span {
+    font-weight: 400;
+    color: #fff;
+    line-height: 10px;
+}
+
+
+
+
+.carousel .carousel-item {
+    color: #999;
+    overflow: hidden;
+    min-height: 120px;
+    font-size: 13px;
+}
+
+.carousel .media {
+    position: relative;
+    padding: 0 0 0 20px;
+}
+
+.carousel .media img {
+    width: 75px;
+    height: 75px;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+.carousel .testimonial-wrapper {
+    padding: 0 10px;
+}
+
+.carousel .testimonial {
+    color: #000;
+    position: relative;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #efefef;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.carousel .testimonial::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: block;
+    background: #fff;
+    border: 1px solid #efefef;
+    border-width: 0 0 1px 1px;
+    position: absolute;
+    bottom: -8px;
+    left: 46px;
+    transform: rotateZ(-46deg);
+}
+
+.carousel .star-rating li {
+    padding: 0 2px;
+}
+
+.carousel .star-rating i {
+    font-size: 16px;
+    color: #ffdc12;
+}
+
+.carousel .overview {
+    padding: 3px 0 0 15px;
+}
+
+.carousel .overview .details {
+    padding: 5px 0 8px;
+}
+
+.details {
+    color: #000;
+}
+
+.carousel .overview b {
+    text-transform: uppercase;
+    color: #bb2823;
+}
+
+.carousel .carousel-indicators {
+    bottom: -30px;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 1px 2px;
+    box-sizing: border-box;
+}
+
+.carousel-indicators li {
+    background: #e2e2e2;
+    border: 4px solid #fff;
+}
+
+.carousel-indicators li.active {
+    color: #fff;
+    background: #bb2823;
+    border: 5px double;
+}
+
+/*@media only screen and (max-width:768px) { */
+/*.social_profile ul li a{margin-right:10px;margin-bottom:10px;}*/
+/*}*/
+/*@media only screen and (max-width:480px) { */
+/*.social_profile ul li a{*/
+/*    width:40px;*/
+/*    height:40px;*/
+/*    line-height:40px;*/
+/*}*/
+/*}*/
+/*.social_profile ul li a:hover{*/
+/*background:#ff3666;*/
+/*border: 1px solid #ff3666;*/
+/*color:#fff;*/
+/*border:0px;*/
+/*}*/
+
+
+
+/*END SOCIAL PROFILE CSS*/
+.copyright {
+    margin-top: 20px;
+    padding-top: 20px;
+    color: #fff;
+    font-size: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    text-align: center;
+}
+
+.copyright a {
+    color: #01c7e9;
+    transition: all 0.2s ease 0s;
+}
+
+.copyright a:hover {
+    color: #ff3666;
+}
+
+.single_footer a,
+.single_footer a:hover,
+.single_footer a:focus,
+.single_footer a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+.single_footer a,
+.single_footer a:active,
+.single_footera:focus {
+    color: #333;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.float1 {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 110px;
+    right: 40px;
+    background-color: #1E90FF;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.copyright a {
+    color: #ba1c24 !important;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+.float-start {
+    font-size: 18px;
+    padding: 5px 0 5px 0;
+}
+
+@media screen and (max-width: 666px) {
+    .top-header-lg {
+        display: none;
+    }
+
+    .text-left {
+        display: none;
+    }
+
+    .book-now {
+        display: none;
+    }
+
+    .top-header-sm {
+        display: block;
+    }
+
+    .navbar-brand img {
+        max-height: 40px;
+    }
+
+    /*.ficon{margin:5px;}*/
+
+    .float {
+        position: fixed;
+        width: 54px;
+        height: 54px;
+        bottom: 40px;
+        right: 22px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 45px;
+        text-align: center;
+        font-size: 26px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+    }
+
+    .float1 {
+        position: fixed;
+        width: 54px;
+        height: 54px;
+        bottom: 110px;
+        right: 22px;
+        background-color: #1E90FF;
+        color: #FFF;
+        border-radius: 45px;
+        text-align: center;
+        font-size: 26px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+    }
+
+    .section-title h2 {
+        font-size: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        position: relative;
+    }
+
+    .covered {
+        padding: 300px 50px 30px 20px;
+    }
+
+    .title-sub {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .book-now {
+        display: none;
+    }
+
+    /*.top-header-sm{display:block;}*/
+    .covered {
+        padding: 300px 50px 30px 20px;
+    }
+
+    .title-sub {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 666px) {
+    .top-header-lg {
+        display: block;
+    }
+
+    .top-header-sm {
+        display: none;
+    }
+
+    .covered {
+        padding: 300px 50px 30px 20px;
+    }
+
+    .title-sub {
+        font-size: 14px;
+    }
+}
+/* src/components/Footer.css */
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .text-uppercase {
+    text-transform: uppercase;
+}
+
+.footer .footer-item {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer .footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li i {
+    margin-right: 5px;
+}
+
+.footer .m-b15 {
+    margin-bottom: 15px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .copyright {
+    margin-top: 20px;
+}

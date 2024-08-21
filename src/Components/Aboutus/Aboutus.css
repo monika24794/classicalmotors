@@ -1,0 +1,43 @@
+/* src/components/AboutUs.css */
+.aboutus{
+    background-color: #000000;
+
+}
+.aboutuscontent {
+    background-color: #000000;
+}
+.py-4{
+    background-color: #000000;
+}
+
+.aboutuscontent .well {
+    color: #ffffff;
+}
+
+.section-title h2 {
+    color: #ee1f23;
+}
+
+#about-me img {
+    max-width: 100%;
+    height: auto;
+}
+
+.fs-6 {
+    font-size: 1.25rem;
+}
+
+#about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#about-me .content {
+    flex: 1;
+}
+
+#about-me .view {
+    flex: 1;
+    text-align: center;
+}

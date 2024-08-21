@@ -1,0 +1,52 @@
+/* src/components/Header.css */
+body {
+    background-color: black;
+
+}
+.container-fluid-top-header-lg{
+    height: auto;
+}
+.container-fluid-logo-header{
+    height: auto;
+}
+
+.extra-section
+{
+    background-color: #ee1f23;
+}
+/* container-fluid-top-header-lg */
+
+.extra-section.bg-white {
+    background-color: #000000 !important;
+}
+
+.header-style-6.style-1 .contact-info h6 {
+    color: #fff;
+    
+}
+.container-fluid-top-header-lg{
+    padding: 10px 0;
+    background-color: rgb(225, 215, 250);
+
+}
+
+
+
+.blink {
+    animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* .carousel-caption .banner-heading {
+    font-size: 2rem;
+    color: #fff;
+} */
+/* .logo-header{
+    color: white;
+} */
+

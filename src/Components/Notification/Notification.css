@@ -1,0 +1,27 @@
+/*  
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+ */
+
+.notification-list {
+    margin-top: 20px;
+}
+
+.notification {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.notification.read {
+    background-color: #f9f9f9;
+}
+
+.notification.unread {
+    background-color: #eaf1f7;
+    border-left: 5px solid #007bff;
+}
+

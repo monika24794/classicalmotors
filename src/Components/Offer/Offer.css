@@ -1,0 +1,26 @@
+/*  
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+    */
+
+.offer-list {
+    margin-top: 20px;
+}
+
+.offer {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.offer h3 {
+    margin-top: 0;
+}
+
+.offer p {
+    margin: 5px 0;
+}
