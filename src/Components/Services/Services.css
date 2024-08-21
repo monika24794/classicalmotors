@@ -1,0 +1,126 @@
+/* .service{
+    background-color: black;
+}
+.container345{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #232121;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-text {
+    color: white;
+} */
+
+/* General Section Styles */
+.services {
+    padding: 60px 0;
+    background-color: #000000;
+}
+
+.services .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headings .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.headings h2 {
+    font-size: 2.5rem;
+    color:  #db0738;
+    font-weight: bold;
+}
+
+/* Service Item Styles */
+.wrap {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+.wrap:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.iconimg {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.mbr-bold {
+    font-weight: bold;
+}
+
+.display-5 {
+    font-size: 1.75rem;
+    margin: 0;
+}
+
+.pull-left {
+    float: left;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+.p-2 {
+    padding: 1rem;
+}
+
+.px-3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.more-info {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.more-info i {
+    margin-left: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .wrap {
+        padding: 15px;
+    }
+
+    .iconimg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .display-5 {
+        font-size: 1.5rem;
+    }
+
+    .more-info {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-lg-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
